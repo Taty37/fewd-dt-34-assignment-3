@@ -1,14 +1,9 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Assignment-3
+Client: General Assembly
+Author: Tatianna Piercy
+Developer @GA in CA
 */
-
-
-/******************************************
-/* SETUP
-/*******************************************/
 
 /* Box Model Hack */
 * {
@@ -17,39 +12,16 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+    background-color:#f4f6f9; 
+    color: #aaacaf;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -57,24 +29,208 @@ body {
 /* LAYOUT
 /*******************************************/
 
-/* Center the container */
-#container {
-  width: 960px;
+
+/*Global */
+.container{
+  width: 100%;
   margin: auto;
+  overflow: hidden;
 }
 
-header {
-
+.light{
+  background:white;
+  color:#35424a;
+  text-align: center;
+  margin-top:20px;
+  height:600px;
+  padding:10px 80px 600px;
 }
+
+#main{
+  padding-left:60px;
+  padding-right:60px;
+}
+
+
+/* Header */
+header{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+
+header a{
+  color: yellow;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 30px 0 30px;
+}
+
+header #branding h1{
+  font: 800 40px 'Open Sans', sans-serif;
+  margin:0;
+  padding: 0 0 10px 0;
+}
+
+header #branding{
+  float: left;
+}
+
+
+header nav{
+  float:right;
+  margin-top:10px;
+  font-size:24px;
+  font-weight:600;
+}
+
+header a:hover{
+  color:#6e7075;
+  font-weight: bold;
+}
+
+/* Main Content */
+h2{
+  color:#35424a;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#main img{
+  width:100%;
+}
+
+.firstcharacter{
+  color:#93979e;
+  float:left;
+  font-family:Open Sans;
+  font-size: 75px;
+  line-height:60px;
+  padding-top:4px;
+  padding-right:8px;
+  padding-left:3px;
+}
+
+#main p{
+  font-size: 24px;
+  font-weight:300;
+  margin-top: 15px;
+}
+
+#main-col a{
+  color:#35424a;
+  font-size:24px;
+  font-weight:600;
+  text-decoration: none;
+  text-indent: right;
+}
+
+.links{
+  text-align: right;
+}
+
+article#main-col{
+  float:left;
+  width: 65%;
+}
+
+
+/* Sidebar */
+aside#info{
+  float:right;
+  width:30%;
+  margin-top: 10px;
+}
+
+h3{
+  color:#35424a;
+  font-size: 32px;
+  font-weight:800;
+  margin: 20px 0 20px 0;
+}
+
+aside ul{
+  font-size:24px;
+  font-weight:300;
+}
+
+aside a{
+  font-size: 22px;
+  font-weight:600;
+  text-decoration: none;
+  color:#35424a;
+}
+
+
+#info p{
+  font-size: 22px;
+  font-weight: 300;
+}
+
+
+/* End Page */
+#Join{
+  background-color: #f9e42e;
+}
+
+.button-2{
+  background-color: #033048;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#end-page{
+  background-color:#35424a;
+  font-size: 24px; 
+  text-align: center;
+}
+
+#end-page h2{
+  font: 800 24px 'Open Sans', sans-serif;
+  color:yellow;
+}
+#end-page a{
+  padding: 12px;
+  margin: 10px;
+}
+
+#container {
+  width: 100%;
+  margin: 0;
+}
+
 
 footer {
-
+  background-color:#35424a;
+  color: #ffffff;
+  display: block;
+  padding: .025px;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
 
 
 
